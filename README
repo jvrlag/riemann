@@ -1,0 +1,47 @@
+% 141116
+
+**** RIEMANN
+
+Developers: Javier Rodríguez-Laguna, Silvia N. Santalla, Tom LaGatta
+and Rodolfo Cuerno.
+
+
+1. PURPOSE
+
+A program to compute geodesics and balls in 2D Riemannian manifolds.
+
+See http://arxiv.org/abs/1407.0209 for a research application of this
+code. 
+
+
+2. INSTALLATION
+
+The program is written in C++ for a UNIX environment with gcc
+compilers, BLAS & LAPACK.
+
+In order to watch all the animations, you need the following
+libraries, including the development files:
+
+* BLAS & LAPACK
+* X11
+
+For example, in ubuntu, apply the following command:
+
+>> sudo apt-get install g++ libblas3 libblas-dev liblapack3 liblapack-dev libx11-dev
+
+In other UNIX systems the packages may have different names.
+
+Now enter each directory and do:
+
+>> make xriemann
+>> ./xriemann
+
+A window should open, and an image like that in example.png should
+appear.
+
+
+
+
+
+
+
