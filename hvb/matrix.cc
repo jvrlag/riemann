@@ -1016,7 +1016,7 @@ void Matrix::Write(int prec) const
          for (long j=1;j<=N2;j++)
 	 {
 	      x=Elem(i,j);
-	      printf(form,x);
+	      printf(form,x.real(), x.imag());
 	 }
          printf("\n");
      }
